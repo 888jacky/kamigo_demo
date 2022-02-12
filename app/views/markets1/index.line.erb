@@ -1,0 +1,93 @@
+[
+  <% if @keyword.present? %>
+  {
+    "type": "text",
+    "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
+  },
+  <% end %>
+  {
+    "type": "flex",
+    "altText": "攤商查詢",
+    "contents":{
+        "type": "carousel",
+        "contents": [
+            <% @markets1.each do|market| %>
+          {
+            "type": "bubble",
+            "hero": {
+              "type": "image",
+              "size": "full",
+              "aspectRatio": "1820:1024",
+              "aspectMode": "cover",
+              "url": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg"
+            },
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "最新資訊",
+                  "wrap": true,
+                  "weight": "bold",
+                  "size": "md",
+                  "color": "#0020fa",
+                  "align": "center"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "2月份",
+                      "wrap": true,
+                      "weight": "bold",
+                      "flex": 0,
+                      "color": "#000000",
+                      "size": "xxl"
+                    },
+                    {
+                      "type": "text",
+                      "text": "<%= market[:名稱] %>"
+                    }
+                  ],
+                  "height": "125px",
+                  "spacing": "xs"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "uri",
+                        "label": "market",
+                        "uri": "https://momo.dm/iQZQUQ"
+                      },
+                      "style": "primary",
+                      "height": "sm"
+                    },
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "uri",
+                        "label": "action",
+                        "uri": "http://linecorp.com/"
+                      },
+                      "style": "primary",
+                      "height": "sm"
+                    }
+                  ],
+                  "height": "60px"
+                }
+              ]
+            }
+          }<%= "," if market != @markets1.last %>
+          <% end %>
+        ]
+      }
+}
+]
