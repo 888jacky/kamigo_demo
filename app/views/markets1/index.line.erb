@@ -9,71 +9,72 @@
     "type": "flex",
     "altText": "攤商查詢",
     "contents":{
-        "type": "carousel",
-        "contents": [
-            <% @markets1.each do|market| %>
-          {
-            "type": "bubble",
-            "hero": {
-              "type": "image",
-              "size": "full",
-              "aspectRatio": "1820:1024",
-              "aspectMode": "cover",
-              "url": "<%= market[:圖片] %>"
-            },
-            "body": {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "text",
-                  "text": "<%= market[:攤商] %>",
-                  "wrap": true,
-                  "weight": "bold",
-                  "size": "md",
-                  "color": "#0020fa",
-                  "align": "center"
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "<%= market[:服務] %>",
-                      "wrap": true,
-                      "weight": "bold",
-                      "flex": 0,
-                      "color": "#000000",
-                      "size": "xxl"
+      "type": "carousel",
+      "contents": [
+        <% @markets1.each do|market| %>
+        {
+          "type": "bubble",
+          "hero": {
+            "type": "image",
+            "size": "full",
+            "aspectRatio": "1820:1024",
+            "aspectMode": "cover",
+            "url": "<%= market[:圖片] %>"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "<%= market[:攤商] %>",
+                "wrap": true,
+                "weight": "bold",
+                "size": "xl",
+                "color": "#0900e6",
+                "align": "center"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "<%= market[:服務] %>",
+                    "wrap": true,
+                    "weight": "bold",
+                    "size": "lg",
+                    "flex": 0,
+                    "color": "#050403"
+                  }
+                ],
+                "height": "125px",
+                "spacing": "xs"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "postback",
+                      "label": "聯絡資訊",
+                      "data": "<%= market[:電話] %>"
                     },
-                  ],
-                  "height": "125px",
-                  "spacing": "xs"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "button",
-                      "action": {
-                        "type": "uri",
-                        "label": "聯絡資訊",
-                        "uri": "<%= market[:連結] %>"
-                    },
-                      "style": "primary",
-                      "height": "sm"
-                    }
-                  ],
-                  "height": "60px"
-                }
-              ]
-            }
-          }<%= "," if market != @markets1.last %>
-          <% end %>
-        ]
-      }
+                    "style": "primary",
+                    "color": "#FF0000",
+                    "height": "sm"
+                  }
+                ],
+                "height": "60px"
+              }
+            ]
+          }
+        }<%= "," if market != @markets1.last %>
+        <% end %>
+      ]
+    }
 }
 ]
