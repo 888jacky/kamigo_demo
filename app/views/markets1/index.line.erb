@@ -19,7 +19,7 @@
               "size": "full",
               "aspectRatio": "1820:1024",
               "aspectMode": "cover",
-              "url": "https://img1.momoshop.com.tw/ecm/img/cmm/fb-image-share.jpg"
+              "url": "<%= market[:圖片] %>"
             },
             "body": {
               "type": "box",
@@ -28,7 +28,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "最新資訊",
+                  "text": "<%= market[:攤商] %>",
                   "wrap": true,
                   "weight": "bold",
                   "size": "md",
@@ -41,17 +41,13 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "2月份",
+                      "text": "<%= market[:服務] %>",
                       "wrap": true,
                       "weight": "bold",
                       "flex": 0,
                       "color": "#000000",
                       "size": "xxl"
                     },
-                    {
-                      "type": "text",
-                      "text": "<%= market[:名稱] %>"
-                    }
                   ],
                   "height": "125px",
                   "spacing": "xs"
@@ -64,19 +60,9 @@
                       "type": "button",
                       "action": {
                         "type": "uri",
-                        "label": "market",
-                        "uri": "https://momo.dm/iQZQUQ"
-                      },
-                      "style": "primary",
-                      "height": "sm"
+                        "label": "聯絡資訊",
+                        "uri": "<%= market[:連結] %>"
                     },
-                    {
-                      "type": "button",
-                      "action": {
-                        "type": "uri",
-                        "label": "action",
-                        "uri": "http://linecorp.com/"
-                      },
                       "style": "primary",
                       "height": "sm"
                     }
