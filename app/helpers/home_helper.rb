@@ -86,7 +86,7 @@ module HomeHelper
               horizontal_box cornerRadius: :xxl, width: "40px", height: "40px" do
                 image "https://#{request.host}/images/IMG_20220212_1.png", size: :full
               end
-              text "Kamigo Demo", wrap: true, size: :lg, margin: :md, gravity: :center, weight: :bold, flex: 3
+              text "虎尾寮市場", wrap: true, size: :lg, margin: :md, gravity: :center, weight: :bold, flex: 3
               text ">", color: "#AAAAAA", wrap: true, size: :md, gravity: :center, align: :end
             end
           end
