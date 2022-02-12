@@ -3,17 +3,44 @@ Kamiflex.json(self) do
   alt_text "攤商查詢"
   bubble size: :giga do
     body do
-      text "2月14日與2月28日\n攤商有營業",wrap:true,color:"#ff0d00",flex: 2, size: "xxl"
+      text "2月14日與2月28日攤商有營業",wrap:true,color:"#ff0d00",flex: 2, size: "xl"
 
       separator color: "#eeeeee"
-
+      text "水果", wrap: true, size: :sm, margin: :lg,color:"#0900e6"
       horizontal_box margin: :lg do
-        message_button "攤商", "攤商", style: :primary
-        message_button "平日", "平日", style: :primary, margin: :md
+        postback_button "阿忠水果行", "阿忠水果行", style: :primary
+        postback_button "阿樹水果", "阿樹水果", style: :primary, margin: :md
       end
-      text "虎尾寮市場攤商訂購查詢。", wrap: true, size: :sm, margin: :lg
-
-      separator color: "#eeeeee"
+      text "蔬菜", wrap: true, size: :sm, margin: :lg,color:"#0900e6"
+      horizontal_box margin: :lg do
+        postback_button "阿惠蔬菜", "阿惠蔬菜", style: :primary
+        postback_button "阿城蔬菜", "阿城蔬菜", style: :primary, margin: :md
+      end
+      text "魚肉", wrap: true, size: :sm, margin: :lg,color:"#0900e6"
+      horizontal_box margin: :lg do
+        postback_button "阿聰澎湖深海魚", "阿聰澎湖", style: :primary
+        postback_button "阿德魚攤", "阿德魚攤", style: :primary, margin: :md
+      end
+      text "雞肉", wrap: true, size: :sm, margin: :lg,color:"#0900e6"
+      horizontal_box margin: :lg do
+        postback_button "玉井跑山雞", "玉井", style: :primary
+        postback_button "永發霸王雞", "永發", style: :primary, margin: :md
+      end
+      text "雜貨店", wrap: true, size: :sm, margin: :lg,color:"#0900e6"
+      horizontal_box margin: :lg do
+        postback_button "薪泉食品雜貨行", "薪泉食品", style: :primary
+    #    postback_button "平日", "平日", style: :primary, margin: :md
+      end
+      text "早點", wrap: true, size: :sm, margin: :lg,color:"#0900e6"
+      horizontal_box margin: :lg do
+        postback_button "優喝呵", "優喝呵", style: :primary
+        postback_button "豆萌", "豆萌", style: :primary, margin: :md
+      end
+      text "水餃", wrap: true, size: :sm, margin: :lg,color:"#0900e6"
+      horizontal_box margin: :lg do
+        postback_button "福記", "福記", style: :primary
+    #    postback_button "豆萌", "豆萌", style: :primary, margin: :md
+      end
       horizontal_box margin: :lg, spacing: :md do
         url_button "分享給好友", safe_liff_path(path: "/share_bot", liff_size: :compact), style: :primary
       end
