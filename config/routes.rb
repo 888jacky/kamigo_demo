@@ -22,26 +22,26 @@ Rails.application.routes.draw do
 
   # menu
   get "menu", to: "home#menu"
-#  get "目錄", to: "home#menu"
-  get "目錄", to: "marktes1#index"
+  get "目錄", to: "home#menu"
+#  get "目錄", to: "marktes1#index"
   # 查天氣
-  get "(*location)天氣(*other)", to: "weather#show"
+#  get "(*location)天氣(*other)", to: "weather#show"
 
   # 學說話
-  get "學 (*keyword) (*message)", to: 'home#learn'
+#  get "學 (*keyword) (*message)", to: 'home#learn'
 
   # 測試用
-  get "test", to: "home#test"
-  get "debug", to: "home#debug"
+#  get "test", to: "home#test"
+#  get "debug", to: "home#debug"
 
   # 查詢當下的使用者
   get "profile", to: "home#profile"
 
   # flex message demo
-  get "flex", to: "flex#index"
-  get "flex/bubble_size_tests/:size", to: "flex#bubble_size_tests"
-  get "flex/apng_test", to: "flex#apng_test"
-  get "flex/500_buttons_demo", to: "flex#500_buttons_demo"
+#  get "flex", to: "flex#index"
+#  get "flex/bubble_size_tests/:size", to: "flex#bubble_size_tests"
+#  get "flex/apng_test", to: "flex#apng_test"
+#  get "flex/500_buttons_demo", to: "flex#500_buttons_demo"
 
   # LINE Flex Message Show Cases
   get "flex/showcases", to: "flex_showcases#index"
