@@ -11,9 +11,27 @@
     alt_text "LINE Flex Message Showcase: Local Search"
     carousel do
       bubbles @markets1, size: :micro do |market|
-        hero market[:圖片], size: :full, aspectMode: "cover", aspectRatio: "320:213"
+        hero market[:圖片], size: :full, aspectMode: "cover", aspectRatio: "320:310"
         body spacing: :sm, paddingAll: "13px" do
           text market[:服務], weight: :bold, size: :sm, wrap: true
+        end
+      end
+    end
+  end) %>,
+
+  <%= raw (Kamiflex.json(self) do
+    alt_text "LINE Flex Message Showcase: Shopping"
+  
+    carousel do
+      bubbles @markets1 do |market|
+        hero market[:圖片], size: :full, aspectRatio: "320:310", aspectMode: :cover
+        body spacing: :sm do
+          text market[:攤商], wrap: true, weight: :bold, size: :xl
+          market[:服務]
+        end
+        end
+        footer do
+          postback_button "聯絡資訊", market[:電話], style: primary, color: color
         end
       end
     end
