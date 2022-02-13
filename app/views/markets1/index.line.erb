@@ -11,13 +11,13 @@
   
     carousel do
       bubbles @markets1 do |market|
-        hero market[:圖片], size: :full, aspectRatio: "20:13", aspectMode: :cover
+        hero market[:圖片], size: :full, aspectRatio: "320:310", aspectMode: :cover
         body spacing: :sm do
           text market[:攤商], wrap: true, weight: :bold, size: :xl
           text market[:服務], wrap: true, weight: :bold, size: :xl
         end
         footer do
-        postback_button "聯絡資訊", "子" , style: primary
+          postback_button "聯絡資訊", "這是機密資料你看不到", style: "primary"
         end
       end
     end
