@@ -6,19 +6,6 @@
   },
   <% end %>
 
-  
-  <%= raw (Kamiflex.json(self) do
-    alt_text "LINE Flex Message Showcase: Local Search"
-    carousel do
-      bubbles @markets1, size: :micro do |market|
-        hero market[:圖片], size: :full, aspectMode: "cover", aspectRatio: "320:310"
-        body spacing: :sm, paddingAll: "13px" do
-          text market[:服務], weight: :bold, size: :sm, wrap: true
-        end
-      end
-    end
-  end) %>
-
   <%= raw (Kamiflex.json(self) do
     alt_text "LINE Flex Message Showcase: Shopping"
   
@@ -27,7 +14,7 @@
         hero market[:圖片], size: :full, aspectRatio: "320:310", aspectMode: :cover
         body spacing: :sm do
           text market[:攤商], wrap: true, weight: :bold, size: :xl
-          text market[:服務], wrap: true
+          text market[:服務], wrap: true, weight: :bold, size: :xl
         end
         end
         footer do
