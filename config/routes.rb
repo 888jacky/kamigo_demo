@@ -22,7 +22,18 @@ Rails.application.routes.draw do
 
   # menu
   get "menu", to: "home#menu"
-  get "攤商查詢", to: "home#mark1"
+  get "攤商查詢", to: "home#mark0"
+  get "水果", to: "home#mark1"
+  get "蔬菜", to: "home#mark2"
+  get "魚肉", to: "home#mark3"
+  get "雞肉", to: "home#mark4"
+  get "豬肉1", to: "home#mark5"
+  get "雜貨行", to: "home#mark6"
+  get "早點", to: "home#mark7"
+  get "魚丸", to: "home#mark8"
+  get "水餃", to: "home#mark9"
+  get "女裝", to: "home#mark10"
+
   get "阿忠水果行", to: "markets1#index"
   
   # 查天氣
