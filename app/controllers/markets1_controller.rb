@@ -4,7 +4,7 @@ class Markets1Controller < ApplicationController
         {
           "圖片": "https://live.staticflickr.com/65535/51877543975_7883540684_n.jpg",
           "攤商": "燕巢阿忠水果行",
-          "服務": "新鮮水果禮盒\n\n新鮮水果籃\n\n外送服務",
+          "服務": "新鮮水果禮盒\n新鮮水果籃\n外送服務",
           "電話": "手機0912127246電話3316678",
         },
         {
