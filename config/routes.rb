@@ -35,6 +35,14 @@ Rails.application.routes.draw do
   get "女裝", to: "home#mark10"
 
   get "阿忠水果行", to: "markets1#index"
+  get "阿樹水果", to: "markets2#index"
+
+
+
+
+
+
+
   
   # 查天氣
 #  get "(*location)天氣(*other)", to: "weather#show"
