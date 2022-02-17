@@ -33,6 +33,7 @@ Rails.application.routes.draw do
   get "魚丸", to: "home#mark8"
   get "水餃", to: "home#mark9"
   get "女裝", to: "home#mark10"
+  get "平日", to: "home#mark21"
 
   get "阿忠水果行", to: "markets1#index"
   get "阿樹水果", to: "markets2#index"
@@ -54,7 +55,12 @@ Rails.application.routes.draw do
 #  get "福記", to: "markets21#index"
   get "手工", to: "markets22#index"
 
-
+  get "二", to: "markets32#index"
+  get "三", to: "markets33#index"
+  get "四", to: "markets34#index"
+  get "五", to: "markets35#index"
+  get "六", to: "markets36#index"
+  get "日", to: "markets37#index"
   # 查天氣
 #  get "(*location)天氣(*other)", to: "weather#show"
 
