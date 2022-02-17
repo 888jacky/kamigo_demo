@@ -42,8 +42,8 @@ Rails.application.routes.draw do
 #  get "阿德魚攤", to: "markets6#index"
   get "玉井", to: "markets7#index"
   get "永發", to: "markets8#index"
-
-
+  get "珍豬鋪", to: "markets9#index"
+#  get "永發", to: "markets10#index"
 
 
   # 查天氣
