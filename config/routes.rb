@@ -49,6 +49,12 @@ Rails.application.routes.draw do
   get "優喝呵", to: "markets15#index"
   get "豆萌", to: "markets16#index"
 
+  get "誠泉", to: "markets19#index"
+#  get "誠", to: "markets20#index"
+#  get "福記", to: "markets21#index"
+  get "手工", to: "markets22#index"
+
+
   # 查天氣
 #  get "(*location)天氣(*other)", to: "weather#show"
 
