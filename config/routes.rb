@@ -36,14 +36,14 @@ Rails.application.routes.draw do
 
   get "阿忠水果行", to: "markets1#index"
   get "阿樹水果", to: "markets2#index"
+  get "阿城蔬菜", to: "markets3#index"
+  get "阿惠蔬菜", to: "markets4#index"
 
 
 
 
 
 
-
-  
   # 查天氣
 #  get "(*location)天氣(*other)", to: "weather#show"
 
