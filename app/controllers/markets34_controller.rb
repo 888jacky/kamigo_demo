@@ -2,31 +2,31 @@ class Markets34Controller < ApplicationController
     def index
       @markets34 = [
         {
-         "圖片": " ",  
+         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "五金",
          "服務": "週四(裕平路)",
          "電話": "尚未提供",
         },
         {
-         "圖片": " ",  
+         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "內衣",
          "服務": "週四(裕平路)",
          "電話": "尚未提供",
         },
         {
-         "圖片": " ",  
+         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "麵包",
          "服務": "週四(公園)",
          "電話": "尚未提供",
         },
         {
-         "圖片": " ",  
+         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "杏包菇",
          "服務": "週四(公園)",
          "電話": "尚未提供",
         },
         {
-         "圖片": " ",  
+         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "干貝",
          "服務": "週四(公園)",
          "電話": "尚未提供",

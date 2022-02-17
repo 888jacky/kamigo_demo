@@ -2,43 +2,43 @@ class Markets35Controller < ApplicationController
     def index
       @markets35 = [
         {
-         "圖片": " ",  
+         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "竹炭",
          "服務": "週六(裕平路)\\n隔週",
          "電話": "尚未提供",
         },
         {
-         "圖片": " ",  
+         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "泡茶",
          "服務": "週六(裕平路)",
          "電話": "尚未提供",
         },
         {
-        "圖片": " ",  
+        "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
         "攤商": "黑糖糕",
         "服務": "週六(裕平路)",
         "電話": "尚未提供",
         },
         {
-        "圖片": " ",  
+        "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
         "攤商": "機能衣",
         "服務": "週六(裕平路)",
         "電話": "尚未提供",
         },
         {
-         "圖片": " ",  
+         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "粉類",
          "服務": "週六(公園)",
          "電話": "尚未提供",
         },
         {
-         "圖片": " ",  
+         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "糖炒栗子",
          "服務": "週六(公園)",
          "電話": "尚未提供",
         },
         {
-         "圖片": " ",  
+         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "女裝",
          "服務": "週六(公園)",
          "電話": "尚未提供",
