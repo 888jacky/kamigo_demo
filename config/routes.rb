@@ -40,6 +40,8 @@ Rails.application.routes.draw do
   get "阿惠蔬菜", to: "markets4#index"
   get "阿聰澎湖", to: "markets5#index"
 #  get "阿德魚攤", to: "markets6#index"
+  get "玉井", to: "markets7#index"
+  get "永發", to: "markets8#index"
 
 
 
