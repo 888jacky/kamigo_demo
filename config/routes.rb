@@ -38,8 +38,8 @@ Rails.application.routes.draw do
   get "阿樹水果", to: "markets2#index"
   get "阿城蔬菜", to: "markets3#index"
   get "阿惠蔬菜", to: "markets4#index"
-
-
+  get "阿聰澎湖", to: "markets5#index"
+#  get "阿德魚攤", to: "markets6#index"
 
 
 
