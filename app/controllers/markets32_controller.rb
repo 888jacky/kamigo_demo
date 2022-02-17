@@ -34,7 +34,7 @@ class Markets32Controller < ApplicationController
         {
          "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "鐘錶",
-         "服務": "週二(公園)\\n隔週",
+         "服務": "週二(公園)\n隔週",
          "電話": "尚未提供",
         },
         {

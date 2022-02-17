@@ -4,7 +4,7 @@ class Markets35Controller < ApplicationController
         {
          "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "竹炭",
-         "服務": "週六(裕平路)\\n隔週",
+         "服務": "週六(裕平路)\n隔週",
          "電話": "尚未提供",
         },
         {
@@ -46,7 +46,7 @@ class Markets35Controller < ApplicationController
         {
         "圖片": "https://live.staticflickr.com/65535/51887834555_2d28756ca3_b.jpg",  
         "攤商": "南投山藥",
-        "服務": "週六(公園)\\n自產自銷\\n隔週",
+        "服務": "週六(公園)\n自產自銷\n隔週",
         "電話": "尚未提供",
         },
   
