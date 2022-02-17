@@ -27,7 +27,7 @@ Rails.application.routes.draw do
   get "蔬菜", to: "home#mark2"
   get "魚肉", to: "home#mark3"
   get "雞肉", to: "home#mark4"
-  get "豬肉1", to: "home#mark5"
+  get "豬肉", to: "home#mark5"
   get "雜貨行", to: "home#mark6"
   get "早點", to: "home#mark7"
   get "魚丸", to: "home#mark8"
@@ -43,7 +43,7 @@ Rails.application.routes.draw do
   get "玉井", to: "markets7#index"
   get "永發", to: "markets8#index"
   get "珍豬鋪", to: "markets9#index"
-#  get "永發", to: "markets10#index"
+#  get "志成", to: "markets10#index"
 
 
   # 查天氣
