@@ -1,0 +1,28 @@
+[
+  <% if @keyword.present? %>
+  {
+    "type": "text",
+    "text": "您要查詢(<%= @keyword %>)的關鍵字題目如下。"
+  },
+  <% end %>
+
+  <%= raw(Kamiflex.json(self) do
+    alt_text "訂購專線查詢"
+  
+    carousel do
+      bubbles @markets11 do |market|
+        hero market[:圖片], size: :full, aspectRatio: "320:310", aspectMode: :cover
+        body spacing: :sm do
+          text market[:攤商], wrap: true, weight: :bold, size: :xl, align: :center,color: "#fa0032"
+          vertical_box height:"150px" do
+          text market[:服務], wrap: true, weight: :bold, size: :lg
+          end
+        end
+        footer do
+            postback_button "訂購專線", market[:電話], style: "primary"
+        end
+      end
+    end
+  end) %>
+
+]
