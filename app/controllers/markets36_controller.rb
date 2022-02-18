@@ -1,6 +1,6 @@
-class Markets35Controller < ApplicationController
+class Markets36Controller < ApplicationController
     def index
-      @markets35 = [
+      @markets36 = [
         {
          "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
          "攤商": "竹炭",
@@ -55,10 +55,10 @@ class Markets35Controller < ApplicationController
     @keyword = params[:keyword]
 
     if @keyword.present?
-        @markets35.filter! do |market|
+        @markets36.filter! do |market|
             market[:攤商].include? @keyword
       end
     end
-    @markets35 = @markets35.first(12)
+    @markets36 = @markets36.first(12)
   end
 end

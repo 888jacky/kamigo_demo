@@ -54,6 +54,9 @@ Rails.application.routes.draw do
 #  get "誠", to: "markets20#index"
 #  get "福記", to: "markets21#index"
   get "手工", to: "markets22#index"
+  get "不二家", to: "markets23#index"
+  get "韓櫃", to: "markets24#index"
+
 
   get "二", to: "markets32#index"
   get "三", to: "markets33#index"
