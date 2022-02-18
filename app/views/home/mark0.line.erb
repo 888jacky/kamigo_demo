@@ -35,6 +35,10 @@ Kamiflex.json(self) do
       end
       horizontal_box margin: :lg, spacing: :md do
         postback_button "平日", "平日", style: :primary
+        url_button "聯繫", "mailto:win888market@gmail.com", style: :primary  , margin: :md
+      end
+      horizontal_box margin: :lg, spacing: :md do
+        url_button "直接加好友", "https://live.staticflickr.com/65535/51888031187_d179e2f190_n.jpg", style: :primary  , margin: :md
         url_button "分享給好友", safe_liff_path(path: "/share_bot", liff_size: :compact), style: :primary, color: "#ed18a6", margin: :md
       end
 
