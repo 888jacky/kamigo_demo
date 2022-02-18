@@ -25,20 +25,7 @@ class Markets24Controller < ApplicationController
          "服務": "歡迎現場選購",
          "電話": "尚未提供",
         },
-        {
-         "圖片": "https://live.staticflickr.com/65535/51889188199_a72e24fdd9_b.jpg",  
-         "攤商": "韓櫃服飾",
-         "服務": "歡迎現場選購",
-         "電話": "尚未提供",
-        },
-        {
-         "圖片": "https://live.staticflickr.com/65535/51889188199_a72e24fdd9_b.jpg",  
-         "攤商": "韓櫃服飾",
-         "服務": "歡迎現場選購",
-         "電話": "尚未提供",
-        },
   
-    
     ]
 
     @keyword = params[:keyword]
