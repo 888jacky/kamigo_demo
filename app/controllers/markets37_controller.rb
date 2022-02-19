@@ -2,7 +2,7 @@ class Markets37Controller < ApplicationController
     def index
       @markets37 = [
         {
-         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
+         "圖片": "https://live.staticflickr.com/65535/51890802778_bd573b0ebd_c.jpg",  
          "攤商": "竹炭內衣",
          "服務": "週日(裕平路)",
          "電話": "尚未提供",
