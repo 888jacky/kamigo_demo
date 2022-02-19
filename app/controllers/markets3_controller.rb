@@ -28,7 +28,7 @@ class Markets3Controller < ApplicationController
         {
           "圖片": "https://live.staticflickr.com/65535/51890714961_a84d003c5a_c.jpg",
           "攤商": "阿城新鮮蔬菜(30)",
-          "服務": "每日最新各式生鮮蔬菜\n芽白菜",
+          "服務": "每日最新各式生鮮蔬菜\n芹菜管",
           "電話": "尚未提供",
         },
         {
