@@ -2,13 +2,13 @@ class Markets1Controller < ApplicationController
     def index
       @markets1 = [
         {
-          "圖片": "https://live.staticflickr.com/65535/51877543975_7883540684_n.jpg",
+          "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",
           "攤商": "燕巢阿忠水果行",
           "服務": "新鮮水果禮盒\n新鮮水果籃\n外送服務",
           "電話": "手機0912127246電話3316678",
         },
         {
-          "圖片": "https://live.staticflickr.com/65535/51877564955_d59411b4e2_c.jpg",
+          "圖片": "https://live.staticflickr.com/65535/51877564955_bd896cd823_c.jpg",
           "攤商": "燕巢阿忠水果行",
           "服務": "新鮮水果禮盒\n新鮮水果籃\n外送服務",
           "電話": "手機0912127246電話3316678",

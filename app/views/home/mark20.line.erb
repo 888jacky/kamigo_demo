@@ -3,14 +3,14 @@ Kamiflex.json(self) do
   alt_text "攤商查詢"
   bubble size: :giga do
     body do
-      text " ",wrap:true,color:"#ff0d00",flex: 2, size: "xl"
+      text "修改衣服",wrap:true,color:"#ff0d00",flex: 2, size: "xl"
 
       separator color: "#eeeeee"
     
       horizontal_box margin: :lg do
-        postback_button "福記水餃", "福記", style: :primary
-        postback_button "手工水餃", "手工", style: :primary, margin: :md
+        postback_button "桑普百貨行", "修改衣服", style: :primary
       end
+
       horizontal_box margin: :lg, spacing: :md do
         postback_button "回首頁", "攤商查詢", style: :primary, color: "#ff6308"
         url_button "分享給好友", safe_liff_path(path: "/share_bot", liff_size: :compact), style: :primary, color: "#ed18a6", margin: :md

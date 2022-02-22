@@ -34,6 +34,7 @@ Rails.application.routes.draw do
   get "水餃", to: "home#mark9"
   get "日系", to: "home#mark10"
   get "進口", to: "home#mark11"
+  get "修改", to: "home#mark20"
   get "平日", to: "home#mark21"
 
   get "阿忠水果行", to: "markets1#index"
@@ -53,10 +54,12 @@ Rails.application.routes.draw do
 
   get "誠泉", to: "markets19#index"
 #  get "誠", to: "markets20#index"
-#  get "福記", to: "markets21#index"
+  get "福記", to: "markets21#index"
   get "手工", to: "markets22#index"
   get "不二家", to: "markets23#index"
   get "韓櫃", to: "markets24#index"
+  get "修改衣服", to: "markets30#index"
+  
 
 
   get "二", to: "markets32#index"
