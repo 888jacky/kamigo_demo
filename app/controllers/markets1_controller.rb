@@ -43,6 +43,36 @@ class Markets1Controller < ApplicationController
           "服務": "新鮮水果禮盒\n新鮮水果籃\n外送服務",
           "電話": "手機0912127246電話3316678",
         },
+        {
+          "圖片": "https://lh5.googleusercontent.com/p/AF1QipN4dfqvQUHa1cyCyqLPHNKXIFy2foVvvOAD0kRo=w600-h321-p-k-no",
+          "攤商": "燕巢阿忠水果行",
+          "服務": "新鮮水果禮盒\n新鮮水果籃\n外送服務",
+          "電話": "手機0912127246電話3316678",
+        },
+        {
+          "圖片": "https://lh5.googleusercontent.com/p/AF1QipOjrCjf7S-BN4PQcP7GA6NqcqQtEVAoqQdbyzQb=w600-h485-p-k-no",
+          "攤商": "燕巢阿忠水果行",
+          "服務": "新鮮水果禮盒\n新鮮水果籃\n外送服務",
+          "電話": "手機0912127246電話3316678",
+        },
+        {
+          "圖片": "https://lh5.googleusercontent.com/p/AF1QipM-xViFe9O0jVyeQ0-u3IIe5u6-n50sZWRxVrkk=w600-h988-p-k-no",
+          "攤商": "燕巢阿忠水果行",
+          "服務": "新鮮水果禮盒\n新鮮水果籃\n外送服務",
+          "電話": "手機0912127246電話3316678",
+        },
+        {
+          "圖片": "https://lh5.googleusercontent.com/p/AF1QipOCL6Zd_3y3l_aqkYjTaNYYyhtThbtOhGqFcT3Y=w600-h650-p-k-no",
+          "攤商": "燕巢阿忠水果行",
+          "服務": "新鮮水果禮盒\n新鮮水果籃\n外送服務",
+          "電話": "手機0912127246電話3316678",
+        },
+        {
+          "圖片": "https://lh5.googleusercontent.com/p/AF1QipMdql0HBKUjkWSyBND-EhhuiKRH5bUMnX3TnXbc=w600-h485-p-k-no",
+          "攤商": "燕巢阿忠水果行",
+          "服務": "新鮮水果禮盒\n新鮮水果籃\n外送服務",
+          "電話": "手機0912127246電話3316678",
+        },
 
     ]
 
