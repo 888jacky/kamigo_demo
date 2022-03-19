@@ -8,13 +8,13 @@ class Markets4Controller < ApplicationController
           "電話": "手機0989692029",
         },
         {
-          "圖片": "https://live.staticflickr.com/65535/51877564860_1b3015700a_b.jpg",
+          "圖片": "https://live.staticflickr.com/65535/51946711826_813ba3a7de_b.jpg",
           "攤商": "顏菊枝蔬菜舖(8)",
           "服務": "每日最新各式生鮮蔬菜",
           "電話": "手機0989692029",
         },
         {
-          "圖片": "https://live.staticflickr.com/65535/51876925236_94658350b7_b.jpg",
+          "圖片": "https://live.staticflickr.com/65535/51947318270_a4ce3c1e0f_b.jpg",
           "攤商": "顏菊枝蔬菜舖(8)",
           "服務": "每日最新各式生鮮蔬菜",
           "電話": "手機0989692029",

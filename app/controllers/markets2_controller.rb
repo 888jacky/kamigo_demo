@@ -2,7 +2,7 @@ class Markets2Controller < ApplicationController
     def index
       @markets2 = [
         {
-          "圖片": "https://live.staticflickr.com/65535/51886691496_a176fea5bc_b.jpg",
+          "圖片": "https://live.staticflickr.com/65535/51946729321_30ef391a6e_b.jpg",
           "攤商": "明樹水果行",
           "服務": "提供水果籃服務",
           "電話": "尚未提供",

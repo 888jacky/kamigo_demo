@@ -2,19 +2,19 @@ class Markets37Controller < ApplicationController
     def index
       @markets37 = [
         {
-         "圖片": "https://live.staticflickr.com/65535/51890802778_bd573b0ebd_c.jpg",  
+         "圖片": "https://live.staticflickr.com/65535/51947030894_1ca6f8a5a9_c.jpg",  
          "攤商": "竹炭內衣",
          "服務": "週日(裕平路)",
          "電話": "尚未提供",
         },
         {
-         "圖片": "https://live.staticflickr.com/65535/51877543975_8ca887e2f8_n.jpg",  
+         "圖片": "https://live.staticflickr.com/65535/51946811108_210866e168_m.jpg",  
          "攤商": "食品",
          "服務": "週日(公園)",
          "電話": "手機0913-232-816",
         },
         {
-         "圖片": "https://live.staticflickr.com/65535/51895253895_83b104d44b_h.jpg",  
+         "圖片": "https://live.staticflickr.com/65535/51946801608_0ebf1aa406_h.jpg",  
          "攤商": "爆漿手工丸子",
          "服務": "週日(公園)\n原味貢丸、蔥花貢丸、黑胡椒貢丸、香菇貢丸、苦瓜封貢丸",
          "電話": "手機0939-706-101",

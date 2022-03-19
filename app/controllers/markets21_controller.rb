@@ -2,7 +2,7 @@ class Markets21Controller < ApplicationController
     def index
       @markets21 = [
         {
-         "圖片": "https://live.staticflickr.com/65535/51895815277_32f1061b97_b.jpg",  
+         "圖片": "https://live.staticflickr.com/65535/51946728621_e28911895f_b.jpg",  
          "攤商": "福記水餃",
          "服務": "手工水餃、餛飩",
          "電話": "手機0935-679-012",
