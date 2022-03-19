@@ -32,7 +32,7 @@ class Markets11Controller < ApplicationController
           "電話": "手機0975298761電話06-3318293",
         },
         {
-          "圖片": "https://live.staticflickr.com/65535/51894546891_e00dcc55a5_c.jpg",
+          "圖片": "https://www.cto.moea.gov.tw/Market/upload/store_upload/3337/1622515619_2.jpg",
           "攤商": "薪泉雜貨行(25)",
           "服務": "各式沾醬、調味料、雜貨及火鍋料、南北雜貨、進口油",
           "電話": "手機0975298761電話06-3318293",

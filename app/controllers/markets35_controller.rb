@@ -21,6 +21,7 @@ class Markets35Controller < ApplicationController
         },
         {
          "圖片": "https://live.staticflickr.com/65535/51946842321_896cb4b563_b.jpg",
+         "攤商": "牛肉",
          "服務": "週五(公園)",
          "電話": "尚未提供",
         },
